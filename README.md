@@ -25,8 +25,8 @@ While conducting this lab activity, it's essential to adhere to ethical guidelin
 
 ### Docker Build
 ```
-de build
-doup   # for Docker ON
+dcbuild
+dcup
 ```
 
 ### Checking all the files
@@ -41,35 +41,49 @@ dockps
 
 ### DNS Server (New Terminal)
 ```
-docksh Local-dns servеч - 10.9.0.53
-export PS1="local-dis-server-10.9.0.53:\w\n\$>"
+docksh Local-dns-servеr - 10.9.0.53
 ```
 
-### List files
 ```
-les letc
-cd /etc/bind
+export PS1="Local-dns-servеr - 10.9.0.53:\w\n\$>"
 ```
 
-### View file contents
+
+### For User
 ```
-Cat nanced couf
-Cat naced couf options
+docksh user-10.9.0.5
 ```
 
-### Browse cache directory
 ```
-bs /var/cache/bind/
-unde dumfdb Cache
+export PS1="user-10.9.0.5:\w\n\$>"
 ```
 
-### List cache directory contents
+
+### For Attacker
 ```
-ls /var/cache/bind/
-Cat /var/cache/bind/dump.do
+docksh attacker-ns-10.9.0.153
 ```
 
-### Flush cache
 ```
-vende flush
+export PS1="attacker-ns-10.9.0.153:\w\n\$>"
 ```
+
+### For Seed Attacker
+```
+docksh seed-attacker
+```
+
+```
+export PS1="seed-attacker:\w\n\$>"
+```
+
+
+### For Seed Router
+```
+docksh seed-router
+```
+
+```
+export PS1="seed-router:\w\n\$>"
+```
+
