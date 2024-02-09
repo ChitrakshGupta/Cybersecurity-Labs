@@ -41,7 +41,7 @@ docksh local-dns-server-10.9.0.53
 ```
 
 ```
-export PS1="local-dns-server-10.9.0.53:\w\n\$>"
+export ps1="local-dns-server-10.9.0.53:\w\n\$>"
 ```
 
 
@@ -51,7 +51,7 @@ docksh user-10.9.0.5
 ```
 
 ```
-export PS1="user-10.9.0.5:\w\n\$>"
+export ps1="user-10.9.0.5:\w\n\$>"
 ```
 
 
@@ -61,7 +61,7 @@ docksh attacker-ns-10.9.0.153
 ```
 
 ```
-export PS1="attacker-ns-10.9.0.153:\w\n\$>"
+export ps1="attacker-ns-10.9.0.153:\w\n\$>"
 ```
 
 ### For Seed Attacker
@@ -70,7 +70,7 @@ docksh seed-attacker
 ```
 
 ```
-export PS1="seed-attacker:\w\n\$>"
+export ps1="seed-attacker:\w\n\$>"
 ```
 
 
@@ -80,6 +80,6 @@ docksh seed-router
 ```
 
 ```
-export PS1="seed-router:\w\n\$>"
+export ps1="seed-router:\w\n\$>"
 ```
 
