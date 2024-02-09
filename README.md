@@ -37,11 +37,11 @@ dockps
 
 ### DNS Server (New Terminal)
 ```
-docksh local-dns-servеr - 10.9.0.53
+docksh local-dns-server-10.9.0.53
 ```
 
 ```
-export PS1="local-dns-servеr - 10.9.0.53:\w\n\$>"
+export PS1="local-dns-server-10.9.0.53:\w\n\$>"
 ```
 
 
