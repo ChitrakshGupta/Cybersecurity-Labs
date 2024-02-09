@@ -21,41 +21,55 @@ While conducting this lab activity, it's essential to adhere to ethical guidelin
 - Wireshark documentation: [https://www.wireshark.org/docs/](https://www.wireshark.org/docs/)
 
 
-# Essential-Cybersecurity-Activities
-
-
 ## DNS Attach (Commands)
 
 ### Docker Build
-- `de build`
-- `doup` (for Docker ON)
+```
+de build
+doup   # for Docker ON
+```
 
 ### Checking all the files
-- `dockps`
+```
+dockps
+```
 
 ### New Terminal
-- `[new terminal]`
+```
+[new terminal]
+```
 
 ### DNS Server (New Terminal)
-- `docksh Local-dns servеч - 10.9.0.53`
-- `export PS1="local-dis-server-10.9.0.53:\w\n\$>"`
+```
+docksh Local-dns servеч - 10.9.0.53
+export PS1="local-dis-server-10.9.0.53:\w\n\$>"
+```
 
 ### List files
-- `les letc`
-- `cd /etc/bind`
+```
+les letc
+cd /etc/bind
+```
 
 ### View file contents
-- `Cat nanced couf`
-- `Cat naced couf options`
+```
+Cat nanced couf
+Cat naced couf options
+```
 
 ### Browse cache directory
-- `bs /var/cache/bind/`
-- `unde dumfdb Cache`
+```
+bs /var/cache/bind/
+unde dumfdb Cache
+```
 
 ### List cache directory contents
-- `ls /var/cache/bind/`
-- `Cat /var/cache/bind/dump.do`
+```
+ls /var/cache/bind/
+Cat /var/cache/bind/dump.do
+```
 
 ### Flush cache
-- `vende flush`
-
+```
+vende flush
+```
