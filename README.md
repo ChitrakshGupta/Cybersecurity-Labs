@@ -19,6 +19,3 @@ While conducting this lab activity, it's essential to adhere to ethical guidelin
 ## Resources
 - Seed Labs website: [https://seedsecuritylabs.org/](https://seedsecuritylabs.org/)
 - Wireshark documentation: [https://www.wireshark.org/docs/](https://www.wireshark.org/docs/)
-
-
-# Essential-Cybersecurity-Activities
